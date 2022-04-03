@@ -19,7 +19,7 @@ internal class OTPChildEditText : androidx.appcompat.widget.AppCompatEditText {
     }
 
     private fun init(context: Context) {
-        isCursorVisible = false
+        isCursorVisible = true
         setTextColor(context.resources.getColor(R.color.transparent))
         setBackgroundDrawable(null)
         inputType = InputType.TYPE_CLASS_NUMBER
